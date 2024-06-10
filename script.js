@@ -89,7 +89,7 @@ let weather = {
         navigator.geolocation.getCurrentPosition(success, console.error);
       }
       else {
-        weather.fetchWeather("Manipal");
+        weather.fetchWeather("Dhanbad");
       }
     }
   };
